@@ -1,6 +1,6 @@
-const { crearArchivo } = require('./helpers/multiplicar4')
+const { crearArchivo } = require('./helpers/resultisr')
 const colors = require('colors')
-const argv = require('./yargs2')
+const argv = require('./yargs/yargs')
 
 console.clear();
 
