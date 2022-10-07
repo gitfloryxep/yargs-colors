@@ -8,7 +8,7 @@ const argv = require('yargs')
                     describe: 'Nombre del Trabajador'
                 })
                 .option('e',{
-                    alias: 'Apellido',
+                    alias: 'apellido',
                     type: 'string',
                     demandOption: true,
                     describe: 'Apellido del trabajador'
